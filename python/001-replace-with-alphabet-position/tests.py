@@ -16,6 +16,12 @@ class TestSolution(unittest.TestCase):
     def test_non_letters(self):
         self.assertEqual(alphabet_position("890142789579834576"), "")
 
+    def test_empty(self):
+        self.assertEqual(alphabet_position(""), "")
+
+    def test_whitespace(self):
+        self.assertEqual(alphabet_position("    "), "")
+
+
 if __name__ == "__main__":
     unittest.main()
-    #print(alphabet_position("IorYTTfZAomySEGZRVZCaudiPVRKKNsgbRiTpEUUZGeLrmiwCgRcjsdigQwawJpsfcGmqlQUbzeqrOdBfIijkuXLqkhskXKzHCTR"))
