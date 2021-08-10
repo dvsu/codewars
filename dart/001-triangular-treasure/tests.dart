@@ -1,7 +1,8 @@
 import 'dart:math';
 
 import "package:test/test.dart";
-import "solution.dart";
+// import "solution.dart";
+import "alternative.dart";
 
 void main() {
   test('Test 1: Small integer', () {
