@@ -1,6 +1,7 @@
 import unittest
 from solution import decodeMorse
 
+
 class TestSolution(unittest.TestCase):
 
     def test_normal(self):
@@ -20,6 +21,7 @@ class TestSolution(unittest.TestCase):
 
     def test_trailing_whitespaces(self):
         self.assertEqual(decodeMorse("       .... . -.--   .--- ..- -.. .       "), "HEY JUDE")
+
 
 if __name__ == "__main__":
     unittest.main()

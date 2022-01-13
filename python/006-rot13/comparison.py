@@ -3,6 +3,7 @@ from solution import rot13
 from alternative1 import rot13sol2
 from alternative2 import rot13sol3
 
+
 def repeat(f, message, count):
     t = []
     for _ in range(count):
@@ -15,7 +16,7 @@ def repeat(f, message, count):
 
 
 count = 5
-n="abcdef123GHIJkl456MNOpqRST7890uVwXYz"*300000
+n = "abcdef123GHIJkl456MNOpqRST7890uVwXYz"*300000
 print(f"test string: {len(n)} characters")
 print(f"count: {count} samples\n")
 

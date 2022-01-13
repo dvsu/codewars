@@ -3,7 +3,7 @@ from solution import solution
 from alternative1 import solution2
 from alternative2 import solution3
 
-n=100000000
+n = 100000000
 
 print(f"n-count: {n}\n")
 print("Solution 1: Use for loop and a variable as accumulator")

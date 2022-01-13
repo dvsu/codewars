@@ -1,6 +1,7 @@
 import unittest
 from solution import iq_test
 
+
 class TestSolution(unittest.TestCase):
 
     def test_even_inbetween(self):

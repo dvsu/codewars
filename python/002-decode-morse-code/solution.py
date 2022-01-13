@@ -21,14 +21,14 @@ MORSE_CODE = {
     "-": "T",
     "..-": "U",
     "...-": "V",
-    ".--": "W",  
-    "-..-": "X",  
-    "-.--": "Y",  
+    ".--": "W",
+    "-..-": "X",
+    "-.--": "Y",
     "--..": "Z",
     ".----": "1",
     "..---": "2",
     "...--": "3",
-    "....-": "4",        
+    "....-": "4",
     ".....": "5",
     "-....": "6",
     "--...": "7",
@@ -39,6 +39,7 @@ MORSE_CODE = {
     "--..--": ","
 }
 
+
 def decodeMorse(morse_code):
     result = ""
 
@@ -47,5 +48,5 @@ def decodeMorse(morse_code):
             continue
 
         result += f"{''.join([MORSE_CODE[code] for code in word.split(' ')])} "
-    
+
     return result[:-1]

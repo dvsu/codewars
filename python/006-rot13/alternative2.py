@@ -9,8 +9,8 @@ def rot13sol3(message):
         if not c.isalpha():
             res += c
             continue
-        
+
         t = 65 if c.isupper() else 97
         res += chr((ord(c) % t + 13) % 26 + t)
-            
+
     return res
